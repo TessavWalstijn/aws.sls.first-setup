@@ -1,0 +1,29 @@
+{
+  "name": "serverless-first-setup",
+  "version": "1.0.0",
+  "description": "first working project on aws",
+  "main": "handler.js",
+  "scripts": {
+    "dev-sls": "sls offline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TessavWalstijn/serverless.first-setup.git"
+  },
+  "author": "Tessa E. van Walstijn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TessavWalstijn/serverless.first-setup/issues"
+  },
+  "homepage": "https://github.com/TessavWalstijn/serverless.first-setup#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "serverless-offline": "^6.4.0"
+  },
+  "dependencies": {
+    "serverless": "^1.79.0"
+  }
+}

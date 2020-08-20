@@ -1,0 +1,30 @@
+crudGet:
+  handler: handler.crudGet
+  events:
+    - http:
+        path: crud
+        method: get
+crudGetById:
+  handler: handler.crudGetById
+  events:
+    - http:
+        path: crud/{id}
+        method: get
+crudPost:
+  handler: handler.crudPost
+  events:
+    - http:
+        path: crud
+        method: post
+crudPut:
+  handler: handler.crudPut
+  events:
+    - http:
+        path: crud/{id}
+        method: put
+crudDelete:
+  handler: handler.crudDelete
+  events:
+    - http:
+        path: crud/{id}
+        method: delete
